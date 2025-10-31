@@ -7,6 +7,7 @@
 ```bash
 
 git clone https://github.com/cgec-web/cgec.git
+cd cgec
 git branch <developer-name>
 git checkout <developer-name>
 
@@ -17,7 +18,18 @@ git push origin <developer-name> # don't try to push into 'main' branch
 
 ```
 
-### Setup .env file
+## Run this app locally
+
+### Step 1 (Clone the project)
+
+```bash
+    # Open terminal (e.g bash)
+    git clone https://github.com/cgec-web/cgec.git
+    cd cgec
+    touch .env # create a .env file
+```
+
+### Step : 2 (Setup .env file)
 
 ```bash
 # PORT
@@ -41,13 +53,13 @@ GMAIL_ADDRESS = xxx
 GMAIL_APP_PASSWORD = xxx
 ```
 
-### Run this app locally
+### Step 3 : (Build the project)
 
 ```shell
 npm run build
 ```
 
-### Start the app
+### Step 4 : (Start the app)
 
 ```shell
 npm run start
