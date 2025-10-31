@@ -1,0 +1,89 @@
+# =========================
+# General
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Node (Backend)
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# OS files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# React (Frontend)
+# =========================
+# if frontend is in /client
+client/node_modules/
+client/build/
+client/.env
+client/.cache/
+client/coverage/
+
+# =========================
+# Testing
+# =========================
+coverage/
+*.lcov
+jest-html-reporters-*
+
+# =========================
+# TypeScript (if used)
+# =========================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# =========================
+# Other
+# =========================
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# Ignore local database or dump files
+dump.rdb
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore uploads or temporary storage (if applicable)
+uploads/
+public/uploads/
+tmp/
+temp/
+
+# =========================
+# Optional: Ignore build artifacts for Docker
+# =========================
+docker-compose.override.yml
+*.tar

@@ -1,0 +1,28 @@
+{
+  "name": "cgec",
+  "version": "1.0.0",
+  "description": "CGEC's official website",
+  "main": "backend/index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "nodemon backend/index.js",
+    "start": "node backend/index.js",
+    "build" : ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgec-web/cgec.git"
+  },
+  "author": "Rakibul Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgec-web/cgec/issues"
+  },
+  "homepage": "https://github.com/cgec-web/cgec#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
