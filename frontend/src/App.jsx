@@ -1,11 +1,15 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-amber-700 bg-amber-300">
-        WELCOME TO COOCHBEHAR GOVERNMENT ENGINEERING COLLEGE
-      </h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   );
 }
